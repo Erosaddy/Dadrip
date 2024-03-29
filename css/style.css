@@ -136,7 +136,7 @@ header {
 
 .logo a img{
     width: 120px;
-    display: inline;
+    display: absolute;
 }
 
 nav {
@@ -155,6 +155,14 @@ nav {
     padding-right: 100px;
 }
 
+.search {
+    background-color: #F1F1F1;
+    width: 250px;
+    height: 36px;
+    text-indent: 10px;
+    border-radius: 5%;
+}
+
 
 /* 2-2. ================ main ================= */
 
@@ -170,6 +178,7 @@ nav {
     position: absolute;
     padding-top: 120px;
     font-size: 52px;
+    color:#383838;
 }
 
 .background {
