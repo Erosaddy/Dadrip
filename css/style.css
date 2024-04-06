@@ -139,8 +139,8 @@ header {
     display: absolute;
 }
 
-nav {
-    color: #2d2d2d;
+header {
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
 }
 
 .container {
@@ -166,12 +166,12 @@ nav {
 
 /* 2-2. ================ main ================= */
 
+body {
+    background-color: #F5F0ED;
+}
 
-#home-main {
+main #container {
     width: 1024px;
-    height: 760px;
-    margin: 0 auto;
-    position: relative;
 }
 
 #main-phrase {
@@ -181,11 +181,8 @@ nav {
     color:#383838;
 }
 
-.background {
-    background-color: #F5F0ED;
-}
-
 .main-image img {
+    position: absolute;
     padding-top: 50px;
     width: 1000px;
 }
