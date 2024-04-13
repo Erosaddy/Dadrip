@@ -1,0 +1,52 @@
+[
+    {
+        "joke_id": "1",
+        "joke_date": "2024-04-13",
+        "joke_question": "비새해복?",
+        "joke_answer": "많이받",
+        "user_id": "zxz7648",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "3561"
+    },
+    {
+        "joke_id": "2",
+        "joke_date": "2024-04-13",
+        "joke_question": "가즈아?",
+        "joke_answer": "주자",
+        "user_id": "zxz7648",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "1423"
+    },
+    {
+        "joke_id": "3",
+        "joke_date": "2024-04-11",
+        "joke_question": "안녕?",
+        "joke_answer": "하세요",
+        "user_id": "zxz7648",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "3461"
+    },
+    {
+        "joke_id": "4",
+        "joke_date": "2024-04-13",
+        "joke_question": "하아앗?",
+        "joke_answer": "흐음",
+        "user_id": "zxz7648",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "3242"
+    },
+    {
+        "joke_id": "5",
+        "joke_date": "2024-04-13",
+        "joke_question": "최불암?",
+        "joke_answer": "시리즈",
+        "user_id": "narihwa",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "952"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "joke_id": "1",
+        "joke_date": "2024-04-13",
+        "joke_question": "오오옷?",
+        "joke_answer": "즈아앗",
+        "user_id": "narihwa113",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "3556"
+    },
+    {
+        "joke_id": "2",
+        "joke_date": "2024-04-13",
+        "joke_question": "탱크로리?",
+        "joke_answer": "브로리",
+        "user_id": "zxz7648",
+        "joke_likes": "31",
+        "joke_dislikes": "0",
+        "views": "2000"
+    },
+    {
+        "joke_id": "3",
+        "joke_date": "2024-04-11",
+        "joke_question": "매일 미안해하는 동물은?",
+        "joke_answer": "오소리",
+        "user_id": "zxz7648",
+        "joke_likes": "18",
+        "joke_dislikes": "16",
+        "views": "3461"
+    },
+    {
+        "joke_id": "4",
+        "joke_date": "2024-04-13",
+        "joke_question": "whatup?",
+        "joke_answer": "no you",
+        "user_id": "zxz7648",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "3242"
+    },
+    {
+        "joke_id": "5",
+        "joke_date": "2024-04-13",
+        "joke_question": "asdf?",
+        "joke_answer": "l;ajkl;asdsjkl;ad",
+        "user_id": "narihwa",
+        "joke_likes": "28",
+        "joke_dislikes": "16",
+        "views": "952"
+    }
+]
