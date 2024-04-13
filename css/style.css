@@ -121,7 +121,12 @@ a:active {
     margin-bottom: 30px;
 }
 
-
+.scroll-disable { /* 스크롤 비활성화 클래스 */
+    height: 100%; 
+    min-height:100%; 
+    overflow:hidden !important; 
+    touch-action:none;
+}
 
 /* 2. ================개별요소 적용 클래스================= */
 
