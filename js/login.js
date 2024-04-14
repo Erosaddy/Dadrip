@@ -110,7 +110,7 @@ function validateCredentials(inputUsername, inputNickname, inputPassword, inputP
     }
 
     // 비밀번호 확인 체크
-    else if (!inputPassword == inputPasswordCheck) {
+    else if (!(inputPassword == inputPasswordCheck)) {
         document.getElementById('signup-error-message').innerHTML = '확인용 비밀번호가 입력하신 비밀번호와 일치하지 않습니다.';
         document.getElementById('pw').value = '';
         document.getElementById('pwCheck').value = '';
