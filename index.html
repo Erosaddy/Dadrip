@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/login.css">
     <title>Dadrip</title>
     <!-- below are leaderboard-related preparations -->
@@ -129,13 +129,13 @@
                 </div>
                 <form class="email-login" method="post">
                     <div class="u-form-group">
-                        <input type="text" placeholder="아이디" required/>
+                        <input id="loginId" type="text" placeholder="아이디" required/>
                     </div>
                     <div class="u-form-group">
-                        <input type="password" placeholder="비밀번호" required/>
+                        <input id="loginPw" type="password" placeholder="비밀번호" required/>
                     </div>
                     <div class="u-form-group">
-                        <p class="error-message"></p>
+                        <p id="error-message"></p>
                         <button id="login" type="submit">로그인</button>
                     </div>
                     <div class="u-form-group">
