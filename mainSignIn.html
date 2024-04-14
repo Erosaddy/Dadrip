@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/login.css">
     <title>Dadrip</title>
+
     <!-- below are leaderboard-related preparations -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -110,71 +111,7 @@
     <footer>
 
     </footer>
-    <!-- 숨겨진 로그인/회원가입 모달 -->
-    <div id="modal">
-        <section id="login-body" class="mx-auto">
-            <div class="login-box">
-                <div class="lb-header">
-                    <a href="#" class="active" id="login-box-link">로그인</a>
-                    <a href="#" id="signup-box-link">회원가입</a>
-                    <button class="modal-close">X</button>
-                </div>
-                <div class="social-login">
-                    <a href="#">
-                        <i class="fa fa-facebook fa-lg"></i>
-                        페이스북으로 로그인하기
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-google-plus fa-lg"></i>
-                        구글로 로그인하기
-                    </a>
-                </div>
-                <form class="email-login" method="post">
-                    <div class="u-form-group">
-                        <input id="loginId" type="text" placeholder="아이디" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input id="loginPw" type="password" placeholder="비밀번호" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <p id="error-message"></p>
-                        <button id="login" type="submit">로그인</button>
-                    </div>
-                    <div class="u-form-group">
-                        <a href="#" class="forgot-password">비밀번호 찾기</a>
-                    </div>
-                </form>
-                <form class="email-signup">
-                    <div class="u-form-group">
-                        <input type="email" placeholder="아이디" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input type="text" placeholder="닉네임" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input type="password" placeholder="비밀번호" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input type="password" placeholder="비밀번호 확인" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input type="email" placeholder="이메일" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <input type="date" placeholder="생년월일" required/>
-                    </div>
-                    <div class="u-form-group">
-                        <label>남성<input type="radio" name="sex" value="M" checked/></label>
-                        <label>여성<input type="radio" name="sex" value="F" /></label>
-                    </div>
-                    <div class="u-form-group">
-                        <button>회원가입</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </div>
-
+  
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="js/login.js"></script>
