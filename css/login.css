@@ -12,6 +12,7 @@
   } */
 
 #modal {
+  box-sizing: content-box;
   position: fixed;
   /* 고정된 위치로 설정 */
   display: none;
@@ -27,6 +28,7 @@
 
 
 #login-body {
+  box-sizing: inherit;
   position: absolute;
   width: 100%;
   top: 50%;
@@ -37,6 +39,7 @@
 }
 
 .login-box {
+  box-sizing: inherit;
   position: relative;
   margin: 0 auto;
   width: 500px;
@@ -85,6 +88,7 @@
 }
 
 .social-login {
+  box-sizing: inherit;
   position: relative;
   float: left;
   width: 100%;
@@ -94,6 +98,7 @@
 }
 
 .social-login a {
+  box-sizing: inherit;
   position: relative;
   float: left;
   width: calc(40% - 8px);
