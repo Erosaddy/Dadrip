@@ -25,4 +25,5 @@ btnSignUpModal.addEventListener("click", ()=>{
 // X 버튼을 눌러 모달을 탈출 + 스크롤을 막는 css 속성 지우기
 btnCloseModal.addEventListener("click", ()=>{
     modal.style.display="none";
+    
 });

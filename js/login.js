@@ -77,7 +77,7 @@ function validateCredentials(inputUsername, inputNickname, inputPassword, inputP
 
     const idReg = /^[a-zA-Z0-9]{5,20}$/;
     const pwReg1 = /^[A-Za-z\d@$!%*#?&]{7,60}$/;    // 알파벳 대소문자, 숫자, 특수문자만 사용 가능하며 7~60자리 사이일 것
-    const pwReg2 = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])$/;  // 알파벳, 숫자, 특수문자 적어도 하나씩 사용해야 함
+    const pwReg2 = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&]).{7,}$/;  // 알파벳, 숫자, 특수문자 적어도 하나씩 사용해야 함
     const peReg3 = /([A-Za-z0-9`~!@#\$%\^&\*\(\)\{\}\[\]\-_=\+\\|;:'"<>,\./\?])\1{2,}/g;    // 동일문자 3번 이상 반복 금지
     const emailReg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
     
