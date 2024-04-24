@@ -21,7 +21,15 @@ document.getElementById('login').addEventListener('click', function (e) {
     // 사용자 입력 값 가져오기
     var inputUsername = document.querySelector('input[type="text"]').value;
     var inputPassword = document.querySelector('input[type="password"]').value;
-    
+
+    if(inputUsername == '') {
+        document.getElementById('login-error-message').innerHTML = '아이디를 입력해 주세요.';
+        return;
+    } else if(inputPassword == '') {
+        document.getElementById('login-error-message').innerHTML = '비밀번호를 입력해 주세요.';
+        return;
+    }
+        
     authenticateUser(inputUsername, inputPassword);
 });
 

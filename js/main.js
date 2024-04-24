@@ -26,4 +26,15 @@ btnSignUpModal.addEventListener("click", ()=>{
 btnCloseModal.addEventListener("click", ()=>{
     modal.style.display="none";
     
+    // 모달 탈출시 로그인 및 회원가입 값 초기화
+    document.getElementById('loginId').value = '';
+    document.getElementById('loginPw').value = '';
+    document.getElementById('id').value = '';
+    document.getElementById('nickName').value = '';
+    document.getElementById('pw').value = '';
+    document.getElementById('pwCheck').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('birth').value = '';
+    document.getElementById('login-error-message').innerHTML = '';
+    document.getElementById('signup-error-message').innerHTML = '';
 });
