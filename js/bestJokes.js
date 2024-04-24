@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+    $('#todayBest').css('background-color', '#5c5be5');
+    $('#todayBest').css('color', '#ffffff');
+
     fetch('/JSON/todayBest.json')
         .then(response => response.json())
         .then(data => {
@@ -21,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // 오늘의 베스트 클릭시 오늘 가장 인기있었던 글들 가져오기
 document.getElementById('todayBest').addEventListener('click', function () {
+    var labelName = this.id;
+    selectedLabel(labelName);   
+
     fetch('/JSON/todayBest.json')
         .then(response => response.json())
         .then(data => {
@@ -43,6 +49,9 @@ document.getElementById('todayBest').addEventListener('click', function () {
 
 // 이번주 베스트 클릭시 이번주 가장 인기있었던 글들 가져오기
 document.getElementById('weeklyBest').addEventListener('click', function () {
+    var labelName = this.id;
+    selectedLabel(labelName);
+
     fetch('/JSON/weeklyBest.json')
         .then(response => response.json())
         .then(data => {
@@ -65,6 +74,9 @@ document.getElementById('weeklyBest').addEventListener('click', function () {
 
 // 이번달 베스트 클릭시 이번달 가장 인기있었던 글들 가져오기
 document.getElementById('monthlyBest').addEventListener('click', function () {
+    var labelName = this.id;
+    selectedLabel(labelName);
+
     fetch('/JSON/monthlyBest.json')
         .then(response => response.json())
         .then(data => {
@@ -86,6 +98,9 @@ document.getElementById('monthlyBest').addEventListener('click', function () {
 });
 // 올타임 베스트 클릭시 전체 글 중 가장 인기있었던 글들 가져오기
 document.getElementById('allTimeBest').addEventListener('click', function () {
+    var labelName = this.id;
+    selectedLabel(labelName);
+
     fetch('/JSON/allTimeBest.json')
         .then(response => response.json())
         .then(data => {
@@ -105,3 +120,16 @@ document.getElementById('allTimeBest').addEventListener('click', function () {
         })
         .catch(error => console.error('Error fetching data:', error));
 });
+
+function selectedLabel(labelName) {
+    $('#todayBest').css('background-color', '#f9f9f9');
+    $('#todayBest').css('color', '#141a39');
+    $('#weeklyBest').css('background-color', '#f9f9f9');
+    $('#weeklyBest').css('color', '#141a39');
+    $('#monthlyBest').css('background-color', '#f9f9f9');
+    $('#monthlyBest').css('color', '#141a39');
+    $('#allTimeBest').css('background-color', '#f9f9f9');
+    $('#allTimeBest').css('color', '#141a39');
+    $("#" + labelName).css('background-color', '#5c5be5');
+    $("#" + labelName).css('color', '#ffffff');
+}

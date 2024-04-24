@@ -27,11 +27,10 @@
   } */
   
   #header {
-    width: 100%;
+    width: 460px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1rem;
   }
   
   .share {
@@ -62,7 +61,7 @@
   }
   
   #leaderboard {
-    width: 100%;
+    width: 460px;
     position: relative;
   }
   
@@ -86,11 +85,17 @@
     box-shadow: 0px 5px 15px 8px #e4e7fb;
   }
 
-  #header h5:hover {
+  #header div:hover {
     background-color: #fff;
     transform: scale(1.1);
     -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
     box-shadow: 0px 5px 15px 8px #e4e7fb;
+  }
+
+  #header button {
+    height: 50px;
+    width: 115px;
+    background-color: #f9f9f9;
   }
   
   tr:nth-child(odd) {
@@ -147,7 +152,7 @@
   }
   
   .ribbon {
-    width: 30rem;
+    width: 30.5rem;
     height: 7rem;
     top: -0.5rem;
     background-color: #5c5be5;
@@ -224,7 +229,7 @@
     border-bottom: 0;
   }
   
-  @media (max-width: 740px) {
+  /* @media (max-width: 740px) {
       * {
         font-size: 70%;
       }
@@ -240,4 +245,4 @@
       * {
         font-size: 45%;
       }
-  }
+  } */
